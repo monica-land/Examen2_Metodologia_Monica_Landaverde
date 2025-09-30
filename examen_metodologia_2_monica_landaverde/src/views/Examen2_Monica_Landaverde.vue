@@ -3,7 +3,14 @@
   <div>
     <form action="GET">
       <label for="">Ingresa tu nombre de usuario</label>
-      <input type="text" placeholder="nombre de usuario" />
+      <input type="text" name="email" placeholder="nombre de usuario" />
+      <label for="">Ingresa tu direccion de email</label>
+      <input type="email" name="email" id="" />
+      <label for="">Selecciona tu sexo:</label>
+      <select name="" id="">
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+      </select>
     </form>
   </div>
 </template>
@@ -12,4 +19,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+h1 {
+  color: yellowgreen;
+}
+</style>
